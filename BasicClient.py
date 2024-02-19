@@ -32,7 +32,7 @@ recieve_thread = threading.Thread(target=recieve)
 recieve_thread.start()
 write_thread = threading.Thread(target=write)
 write_thread.start() #THIS ALLOWS YOU TO SEND AND RECIVE AT THE SAME TIME
-#this is why my original chat server was acting so stupid along with other reasons.
+
 #without threading your program will run one function, one step, one process at a time.
         
     
